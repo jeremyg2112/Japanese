@@ -85,16 +85,21 @@ a {
 @media only screen and (max-width: 700px) {
   #main-doc{
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 25px;
   }
   
   #navbar {
     position: relative;
     width: 100%;
-    font-size: 0.95em;
   }
   
   #navbar li {
     height: 20px;
+    font-size: 1.2em;
   }
+
+  #nav-title {
+  margin: 0px;
+  margin-top: 25px;
+}
 }
